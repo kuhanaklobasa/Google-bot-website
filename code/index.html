@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="og:description" content="Website for the Google Bot discord bot">
+    <meta propety="og:site_name" content="Google Bot">
+    <meta propety="og:image:secure_url" content="https://www.google.bot.xyz/images/favicon.png">
+    <meta name="keywords" content="google bot, discord bot, discord, google, bot, googlebot">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="google-logo" href="/index.html"><img src="/images/favicon.png" width="30" height="30" alt="Logo">Google<span>Bot</span></a>
+            <nav>
+                <ul class="navigation-main">
+                    <li class="current"><a href="/index.html">Home</a></li>
+                    <li><a href="/commands.html">Commands</a></li>
+                    <li><a href="https://top.gg/bot/837614958870921236/vote" target="_blank">Vote</a></li>
+                    <li class="get-premium"><a href="/comingsoon.html">Get Premium</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="hero">
+        <p id=typing-hero></p>
+        <h1>Google Bot is a multi feature bot, with web related commands</h1>
+        <img src="/images/cpu.svg" alt="Image of a cpu", width="300" height="300">
+        <div class="buttons-container">
+            <a href="https://discord.com/api/oauth2/authorize?client_id=837614958870921236&permissions=124928&scope=bot%20applications.commands" class=invite-button>Invite me</a>
+            <a href="https://discord.gg/chqj883cdv" class=support-button>Support Server</a>
+        </div>
+    </div>
+    <div class="features">
+            <h1>Whole internet in discord</h1>
+            <h2>Google Bot offers a lot of unique features</h2>
+            <img src="/images/emoji.png" alt="Emojis">
+        </div>
+        <ul class=why-google-bot>
+            <li data-aos="fade-left"
+            data-aos-offset="0"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
+          ><span>Often updates</span>, because the bot is only for web commands, we can update it faster</li>
+            <li data-aos="fade-left"
+            data-aos-offset="0"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"><span>Speed</span>, we try to keep all bot's commands under 1 second (usual speed is around 21ms)</li>
+            <li data-aos="fade-left"
+            data-aos-offset="0"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"><span>security</span>, we don't keep search history ;)</li>
+            <li data-aos="fade-left"
+            data-aos-offset="0"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"><span>easy to use</span>, absolutely no setup required</li>
+        </ul>
+            <div class="reviews-text">
+                <h2>What our users think:</h2>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class=review-1><img class= img-1 src="/images/zak.gif" alt="profile picture" width=60 height=60>"amazing. everyone in my server loves it. well made. props to the creator"<br>- ZakIsSwag#1111</br></p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class=review-2><img class= img-1 src="/images/emma.webp" alt="profile picture" width=60 height=60>"It's a very good bot, you have to use it if you are lazy."<br>- 𝑬𝒎𝒎𝒂❤#8836</br></p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class=review-3>"Looks like nobody is here yet, write a review on top.gg to maybe get here" <br>-Could be you👀</br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+    <div class="credit">
+        <p>Made by Official Shrek God#0001 with ♥️</p>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: false,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          updateOnWindowResize: true,
+          coverflowEffect: {
+            rotate: 20,
+            stretch: 0,
+            depth: 3,
+            modifier: 1,
+            slideShadows: false
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+<script src="/path/to/typeit/source"></script>
+<script src="https://unpkg.com/typeit@8.0.2/dist/index.umd.js"></script>
+<script>
+    new TypeIt("#typing-hero", {
+        speed: 320,
+        waitUntilVisible: true,
+        loop: true,
+    })
+    .type("Best web related discord bot")
+    .pause(500)
+    .delete()
+    .type("Safe")
+    .pause(500)
+    .delete()
+    .type("Invite it now")
+    .pause(500)
+    .delete()
+    .go();
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
