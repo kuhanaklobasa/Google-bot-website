@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .google-logo {
+  padding-left: 5px;
+  text-decoration: none;
+  color: #707070;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 0;
+}
+
+.navbar .google-logo span {
+  color: #1d73dc;
+}
+
+.navbar .google-logo img {
+  margin-top: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0;
+}
+
+ul.navigation-main {
+  padding-left: auto;
+  padding-right: auto;
+  width: auto;
+  list-style-type: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul.navigation-main li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul.navigation-main li a {
+  text-decoration: none;
+  color: #707070;
+  display: inline;
+}
+
+ul.navigation-main li a:hover {
+  color: #1d73dc;
+}
+
+.image-404 img {
+  padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image-404 h1 {
+  text-align: center;
+  color: #5e5e5e;
+}
+
+.image-404 h2 {
+  text-align: center;
+  color: #707070;
+  font-weight: lighter;
+}
+
+.links {
+  padding-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #707070;
+}
+
+.links ul {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.links ul li a {
+  text-decoration: underline;
+  color: #707070;
+}
+/*# sourceMappingURL=404.css.map */

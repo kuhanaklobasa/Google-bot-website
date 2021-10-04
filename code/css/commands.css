@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: "Poppins";
+  padding-bottom: 30px;
+}
+
+.navbar {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .google-logo {
+  padding-left: 5px;
+  text-decoration: none;
+  color: #707070;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 0;
+}
+
+.navbar .google-logo span {
+  color: #1d73dc;
+}
+
+.navbar .google-logo img {
+  margin-top: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0;
+}
+
+ul.navigation-main {
+  padding-left: auto;
+  padding-right: auto;
+  width: auto;
+  list-style-type: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul.navigation-main li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul.navigation-main li a {
+  text-decoration: none;
+  color: #707070;
+  display: inline;
+}
+
+ul.navigation-main li a:hover {
+  color: #1d73dc;
+}
+
+.hero {
+  text-align: center;
+  color: #707070;
+  padding-top: 50px;
+  font-size: 15px;
+}
+
+.hero h1 {
+  font-size: 25px;
+}
+
+.hero h1 span a {
+  text-decoration: none;
+  color: #1d73dc;
+}
+
+.hero h2 {
+  padding-top: 50px;
+}
+
+.hero ul {
+  list-style: none;
+}
+
+.hero ul li a {
+  color: #5c5c5c;
+  text-decoration: underline;
+  font-size: 20px;
+}
+/*# sourceMappingURL=commands.css.map */
